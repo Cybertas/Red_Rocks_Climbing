@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<!--
+Template Name: Nonuxor
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>RED ROCKS CLIMBING</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!-- This is for the slide show -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--This is for mapbox-->
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet'/>
+<!--Sweet alert-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!--google fonts-->
+<!-- heading / subheading / content -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Lora:wght@500&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+
+<style>
+.carousel-inner > .item >img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+  
+
+</style>
+
+</head>
+<body id="top">
+  <style>
+    .mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+    </style>
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/Images/sun_set_climb1.jpg');" alt = "man_sun_set_climb"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1 class = "front_heading"><a href="index.html">Red Rocks Climbing </a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active" id = front><a href="index.html">Home</a></li>
+          <li id = "front"><a class="drop" href="#">Pricing</a>
+            <ul>
+              <li id = "front" ><a href="pages/gallery.html">Discounts</a></li>
+              <li id = "front"><a href="pages/full-width.html">Students</a></li>
+              <li id = "front"><a href="pages/sidebar-left.html">Concession</a></li>
+              <li id = "front"><a href="pages/sidebar-right.html">Kids</a></li>
+            </ul>
+          </li>
+          <li id = "front"><a class="drop" href="#">Lessions</a>
+            <ul>
+              <li id = "front"><a href="pages/gallery.html">Beginner</a></li>
+              <li id = "front"><a href="pages/full-width.html">Intermediate</a></li>
+              <li id = "front"><a href="pages/sidebar-left.html">Skilled</a></li>
+              <li id = "front"><a href="pages/sidebar-right.html">Kids</a></li>
+            </ul>
+            <li id = "front"><a class="drop" href="#">Youth Program</a>
+              <ul>
+                <li id = "front"><a href="pages/gallery.html">About us</a></li>
+                <li id = "front"><a href="pages/full-width.html">Trials</a></li>
+              </ul>
+            </li>
+          </li>
+          <li id = "front"><a class="drop" href="#">Climbing</a>
+            <ul>
+              <li id = "front"><a class="drop" href="#">Indoor</a>
+                <ul>
+                  <li id = "front"><a href="#">Bouldering</a></li>
+                  <li id = "front"><a href="#">Rock Climbing</a></li>
+                </ul>
+              </li>
+              <li id = "front"><a class="drop" href="#">Outdoor</a>
+                <ul>
+                  <li id = "front"><a href="#">Bouldering</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article class="introtxt">
+      <h2 class="heading" id = "subfront">Start your adventure!</h2>
+      <p id = "subfront">The Perfect Sport for Adrenaline Rush.</p>
+      
+    </article>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="group center">
+      <article class="one_quarter first"><i class="icon fa fa-book"></i>
+        <h4 id = "front"><a href="#"><u>About Us</u></a></h4>
+        <p id = "confront">Red Rock Climbing is a rocking climbing club for new comers and rock climbing enthusiasts. We have different of actvities...</p>
+      </article>
+      <article class="one_quarter"><i class="icon fa fa-graduation-cap"></i>
+        <h4 id = "front"><a href="#"><u>Tranning Classes</u></a></h4>
+        <p id = "confront">At Red Rock Climbing, we offer a wide range of classes for wide ranges of skills and different level of experiences...</p>
+      </article>
+      <article class="one_quarter"><i class="icon fa fa-child"></i>
+        <h4 id = "front"><a href="#"><u>Youth Program</u></a></h4>
+        <p id = "confront">Red Rock Climbing caters towards all age groups, so feel free to bring your kids along.</p>
+      </article>
+      <article class="one_quarter"><i class="icon fa fa-usd"></i>
+        <h4 id = "front"><a href="#"><u>Pricing</u></a></h4>
+        <p id = "confront">At Red Rock Climbing, we have discounts if you are a student or a concession card holder. We also have holiday discounts...</p>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper">
+  <div class="split clear">
+    <section class = "box1" style="background-image:url('images/Images/people-woman-sport-muscles4.jpg'); width:auto; height:auto; background-repeat: no-repeat;" alt="woman_hanging">
+    </section>
+    <section class="box"> 
+      <!-- ################################################################################################ -->
+      <div class="btmspace-50">
+        <h2 class="heading" id = "front">Skill levels</h2>
+        <p id = "subfront">Climbing walls and holds for all different level of participants, what are you waiting for!</p>
+      </div>
+      <ul class="nospace elements">
+        <li>
+          <article><a href="#" class="icon"><i class="fa fa-battery-quarter"></i></a>
+            <h6 class="heading" id = "subfront">Beginner</h6>
+            <p id = "confront">If you are a new comer do not be intimated by the height, we will go through the how everything works. Come and challenge yourself!<p class="nospace"><a href="#"><u>More About Introduction </u></a></p> </p>
+          </article>
+        </li>
+        <li>
+          <article><a href="#" class="icon"><i class="fa fa-battery-half"></i></a>
+            <h6 class="heading" id = "subfront">Intermediate</h6>
+            <p id = "confront">Rock climbing is about having fun and testing your limits but if you would like to boost your skills then we recommend you to try our classes.<p class="nospace"><a href="#"><u>View Tranning Classes</u></a></p></p>
+          </article>
+        </li>
+        <li>
+          <article><a href="#" class="icon"><i class="fa fa-battery-full"></i></a>
+            <h6 class="heading" id = "subfront">Experienced</h6>
+            <p id = "confront">If you are a skilled & experienced rock climber why not join our outdoor bouldering site. <p class="nospace"><a href="#"><u>Details</u></a></p>
+          </article>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+      
+    </section>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section id="latest" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="center btmspace-50">
+      <h2 class="heading" id = "front">News and events</h2>
+      
+    </div>
+    <ul class="nospace group">
+      <li class="one_third first">
+        <article>
+          <figure><img id = "myImg" src="images/Images/champ-kid.jpeg" style= "width:100%;max-width:300px" alt="Winner of the competition: Dam son " alt= "kid_climb" >
+            <div id="myModal01" class="modal">
+              <span class="close" onclick="document.getElementById('myModal01').style.display='none'">&times;<p id = "closebutton">close</p></span>
+              <img class="modal-content" id="img01">
+              <div class="caption"></div>
+            </div>
+            <script>
+              // Get the modal
+              var modal = document.getElementById("myModal01");
+              
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img = document.getElementById("myImg");
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
+            <figcaption class = "caption">Click Me <i class="fa fa-hand-pointer-o" aria-hidden="true"></i></figcaption>
+          </figure>
+          <div class="excerpt">
+            <time datetime="2045-04-06">6<sup>th</sup> June</time>
+            <h6 class="heading" id = "subfront">Victoria Youth Competition</h6>
+            <p id = "confront">Red Rock Climbing Youth Climbing Team has won the 1st place at Victora Youth Competition&hellip;</p>
+            <p class="nospace"><a href="#"><u>Details</u></a></p>
+          </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure><img id = "myImg02" src="images/Images/lead-climber.jpeg"style= "width:100%;max-width:300px" alt="Professional lead-climber: John walts">
+            <div id="myModal02" class="modal">
+              <span class="close" onclick="document.getElementById('myModal02').style.display='none'">&times;<p id = "closebutton">close</p></span>
+              <img class="modal-content" id="img02">
+              <div id="caption02"></div>
+            </div>
+            <script>
+              // Get the modal
+              var modal = document.getElementById("myModal02");
+              
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img = document.getElementById("myImg02");
+              var modalImg = document.getElementById("img02");
+              var captionText = document.getElementById("caption02");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
+            <figcaption class = "caption">Click Me <i class="fa fa-hand-pointer-o" aria-hidden="true"></i></figcaption>
+          </figure>
+          <div class="excerpt">
+            <time datetime="2045-04-05">5<sup>th</sup> June</time>
+            <h6 class="heading" id = "subfront">Want to Lead Climb?</h6>
+            <p id = "confront">Come and join us on 5th of April where we will be hosting a tranning lession on Lead Climb&hellip;</p>
+            <p class="nospace"><a href="#"><u>Details</u></a></p>
+          </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure><img id = "myImg03"src="images/Images/outdoor-climb.jpeg"style= "width:100%;max-width:300px" alt="Outdoor Boldering Site">
+            <div id="myModal03" class="modal">
+              <span class="close" onclick="document.getElementById('myModal03').style.display='none'">&times;<p id = "closebutton">close</p></span>
+              <img class="modal-content" id="img03">
+              <div id="caption03"></div>
+            </div>
+            <script>
+              // Get the modal
+              var modal = document.getElementById("myModal03");
+              
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img = document.getElementById("myImg03");
+              var modalImg = document.getElementById("img03");
+              var captionText = document.getElementById("caption03");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
+            <figcaption class = "caption">Click Me <i class="fa fa-hand-pointer-o" aria-hidden="true"></i></figcaption>
+          </figure>
+          <div class="excerpt">
+            <time datetime="2045-04-04">4<sup>th</sup> Jne</time>
+            <h6 class="heading" id = "subfront">OutDoor Bouldering</h6>
+            <p id = "confront">Are you really for a really challenge come and join us at our outdoor bouldering site&hellip;</p>
+            <p class="nospace"><a href="#"><u>Details</u></a></p>
+          </div>
+          
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+    
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!--adding social media gallery to site-->
+<div class="social media" style="background-image:url('images/Images/grey.png');">
+  <section id="mysocial" class="hoc container clear">
+    <div class="center btmspace-50">
+      <h2  class="heading" id = "front">our social media gallery</h2>
+
+      <h2 id="insta_logo"><i class="fa fa-instagram"></i></h2>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/Images/lead_out_door.jpeg" alt = "lead_out_door">
+        </div>
+        <div class="item">
+          <img src="images/Images/man_on_mount.jpeg" alt = "man_on_mount">
+        </div>
+        <div class="item">
+          <img src="images/Images/woman_on_wall.jpeg" alt = "woman_on_wall">
+        </div>
+        <div class="item">
+          <img src="images/Images/man_falling.jpeg" alt = "man_falling">
+          </div>
+        <div class="item">
+          <img src="images/Images/man_hanging.jpeg" alt = "man_hanging">
+        </div>
+      </div>
+
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+  </section>
+
+</div>
+
+<div class="wrapper bgded overlay coloured" >
+  <div class="container clear"> 
+    <!-- ################################################################################################ -->
+    <article class="center">
+      <h2 class="heading font-x3" id = "front">Sign up membership</h2>
+      <p class="btmspace-30" id = "confront">We will be updating you with events and discounts, make sure not to miss it!</p>
+  
+          <label for="uname" class = "labels"><strong>Username</strong></label>
+          <input type="text" id = "username"class = "inputs" placeholder="myusername123" name="uname" required>
+          <label for="fname" class = "labels"><strong>Fullname</strong></label>
+          <input type="text" id = "fullname" class = "inputs" placeholder="Berry Allen" name="fname" required>
+          <label for="Email" class = "labels"><strong>Email</strong></label>
+          <input type="text" id = "email" class = "inputs" placeholder="myemail@gmail.com" name="Email" required>
+          <div id = space2></div>
+          <button type="submit" class = "btn" id = "subButton">Sign Up</button>
+    </article>
+    <!--adding form to site-->
+    <script>
+      function userinfo(){
+        var username = document.getElementById("username").value;
+        var fullname = document.getElementById("fullname").value;
+        var email = document.getElementById("email").value;
+        if (username.length > 0 && fullname.length > 0 && email.length > 0) {
+          console.log("yes");
+          swal({
+            title: "Welcome!" + " "+username,
+            text: "A confirmation email will be sent to" + " " +email,
+            icon: "success",
+          });
+          
+          
+        }
+        
+        else{
+          console.log("no");
+          swal("Error", "Please fill in the form", "error");
+        }
+
+        
+      }
+      var subButton = document.getElementById('subButton');
+      subButton.addEventListener('click', userinfo, false); 
+      
+    </script>
+    <div class = "notify"><span id = "notifyType" class = ""></span></div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+ 
+    <!-- ################################################################################################ -->
+    
+   
+    
+
+  
+    <!-- ################################################################################################ -->
+ 
+
+<!--https://docs.mapbox.com/mapbox-gl-js/api/-->
+<!--inserting map to website-->
+<div id = "mapsection" class = "wrapper row4">
+  <div id = "space1"></div>
+  <article class = "center"><h2 class = "heading font-x3" id = "front">Find us at</h2></article>
+  <div id='map' style='width: 1000px; height: 300px;'></div>
+  <script>
+    let caulfield = [145.0420733, -37.8770097];
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2hyaXNoYW8iLCJhIjoiY2tvcDViczJrMGZqNTJvcnk4YmNydHprYyJ9.fl2PpGie3ytBahFHxIxCGg';
+    var map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/streets-v11', // style URL
+    center: caulfield, // starting position [lng, lat]
+    zoom: 9 // starting zoom
+    });
+
+  map.on('load', function () {
+    map.addSource('places', {
+      // This GeoJSON contains features that include an "icon"
+      // property. The value of the "icon" property corresponds
+      // to an image in the Mapbox Streets style's sprite.
+      'type': 'geojson',
+      'data': {
+        'type': 'FeatureCollection',
+        'features': [
+          {
+            'type': 'Feature',
+            'properties': {
+              'description':
+                '<a href="https://www.pexels.com/search/cat/" target="_blank" title="Opens in a new window">Indoor Club/Office</a> ',
+              'icon': 'castle-15'
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [145.0420733, -37.8770097]
+            }
+          },
+          {
+            'type': 'Feature',
+            'properties': {
+              'description':
+                ' <a href="https://www.pexels.com/search/cat/" target="_blank" title="Opens in a new window">Out Door/Bourdering Site</a>',
+              'icon': 'mountain-15'
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [145.3177, -37.8901]
+            }
+          }
+        ]
+      }
+    }
+    )
+    map.addLayer({
+'id': 'places',
+'type': 'symbol',
+'source': 'places',
+'layout': {
+'icon-image': '{icon}',
+'icon-allow-overlap': true
+}
+});
+  }
+  );
+  
+ 
+map.on('click', 'places', function (e) {
+var coordinates = e.features[0].geometry.coordinates.slice();
+var description = e.features[0].properties.description;
+ 
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+}
+ 
+new mapboxgl.Popup()
+.setLngLat(coordinates)
+.setHTML(description)
+.addTo(map);
+});
+
+
+
+    </script>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      
+      <p id = "subfront">What is Red Rocks Climbing</p>
+      <p id = "confront">Red Rock Climbing is a rocking climbing club for new comers and rock climbing enthusiasts. We have different of actvities for different skill levels.</p>
+      <p id = "subfront">What facilities do you have?</p>
+      <p id = "confront">We have an indoor rock climbing walls as well bouldering. We also have an outdoor boldering site where you could test your will.</p>
+    </div>
+    <div class="one_quarter">
+      <ul class="nospace linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          31 climb st, Caulfield, 3031
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
+          +00 (123) 456 7890</li>
+        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+        <li><i class="fa fa-envelope-o"></i> info@redrocks.com</li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Openning Hours</h6>
+      <ul class="nospace linklist">
+        <li>Monday: 6am - 10pm</li>
+        <li>Tuesday: 6am - 10pm</li>
+        <li>Wednesday: 6am - 10pm</li>
+        <li>Thuresday: 6am - 10pm</li>
+        <li>Saturday: 6am - 12pm</li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Sponsorships</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Red Cow</a></h2>
+            <time id = "subfront" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace" id = "confront">Thank you Red Cow for sponsoring our club&hellip;</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Blue tuna</a></h2>
+            <time  id = "subfront" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace" id = "confront">Thank you Blue tuna for sponsoring our club&hellip;</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+
+  
+</script>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>
